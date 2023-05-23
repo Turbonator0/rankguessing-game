@@ -1,3 +1,9 @@
+## why?
+
+The link (to another site) on the [intti.fi](https://intti.fi/arvomerkit-hierarkia) article regarding ranks is broken/doesn't load properly on my computer so I made this instead.
+Also I thought this was a fun way to learn React.
+
+
 To play this locally
 
 ```
