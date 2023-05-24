@@ -24,7 +24,7 @@ function App() {
   return (
     <>
     <div id="displayContainer">
-      <RankDisplay uri={cardURI}></RankDisplay>
+      <RankDisplay name={cardName} uri={cardURI}></RankDisplay>
       <p>{wasCorrect}</p>
     </div>
     <br/>

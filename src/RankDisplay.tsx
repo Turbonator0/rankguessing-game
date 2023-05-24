@@ -1,4 +1,5 @@
 type RankProps = {
+  name: string
   uri: string
 }
 
@@ -7,12 +8,12 @@ export function RankDisplay(props: RankProps){
   if(props.uri.includes("2.5"))
     plate = <></>
   else{
-    plate = <img src={
+    plate = <img alt={props.name+" kauluslaatta"} src={
       props.uri.split(".")[0]+"-plate.svg"
       }></img>
   }
   return <>
-  <img src={props.uri}></img>
+  <img alt={props.name} src={props.uri}></img>
   {plate}
   </>
 }
