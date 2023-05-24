@@ -19,7 +19,6 @@ function App() {
   const [answerValue, setAnswerValue] = useState("")
   const [cardState, setCardState] = useState(rollNewRank())
   const [wasCorrect, setWasCorrect] = useState("") 
-  //console.log(currentCard)
   let cardName = cardState.name
   let cardURI = cardState.uri
   return (
