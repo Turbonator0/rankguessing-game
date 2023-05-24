@@ -4,7 +4,7 @@ export type RANKS_OR_TYPE = {
 }
 
 export const RANKS = {
-  "OR1": {
+  "OR2": {
     "name": "Sotamies",
     "uri": "/ranks/or/OR2.svg"
   },
@@ -42,54 +42,54 @@ export const RANKS = {
   },
   "OFS" : {
     "name" : "Upseerioppilas",
-    "uri" : "/ranks/OFS.svg"
+    "uri" : "/ranks/of/OFS.svg"
   },
   "OFD" : {
     "name" : "Upseerikokelas",
-    "uri" : "/ranks/OFD.svg"
+    "uri" : "/ranks/of/OFD.svg"
   },
   "OF1-1" : {
     "name" : "Vänrikki",
-    "uri" : "/ranks/OF1-1.svg"
+    "uri" : "/ranks/of/OF1-1.svg"
   },
   "OF1-2" : {
     "name" : "Luutnantti",
-    "uri" : "/ranks/OF1-2.svg"
+    "uri" : "/ranks/of/OF1-2.svg"
   },
   "OF1-3" : {
     "name" : "Yliluutnantti",
-    "uri" : "/ranks/OF1-3.svg"
+    "uri" : "/ranks/of/OF1-3.svg"
   },
   "OF2" : {
     "name" : "Kapteeni",
-    "uri" : "/ranks/OF2.svg"
+    "uri" : "/ranks/of/OF2.svg"
   },
   "OF3" : {
     "name" : "Majuri",
-    "uri" : "/ranks/OF3.svg"
+    "uri" : "/ranks/of/OF3.svg"
   },
   "OF4" : {
     "name" : "Everstiluutnantti",
-    "uri" : "/ranks/OF4.svg"
+    "uri" : "/ranks/of/OF4.svg"
   },
   "OF5" : {
     "name" : "Eversti",
-    "uri" : "/ranks/OF5.svg"
+    "uri" : "/ranks/of/OF5.svg"
   },
   "OF6" : {
     "name" : "Prikaatikenraali",
-    "uri" : "/ranks/OF6.svg"
+    "uri" : "/ranks/of/OF6.svg"
   },
   "OF7" : {
     "name" : "Kenraalimajuri",
-    "uri" : "/ranks/OF7.svg"
+    "uri" : "/ranks/of/OF7.svg"
   },
   "OF8" : {
     "name" : "Kenraaliluutnantti",
-    "uri" : "/ranks/OF8.svg"
+    "uri" : "/ranks/of/OF8.svg"
   },
   "OF9" : {
     "name" : "Kenraali",
-    "uri" : "/ranks/OF9.svg"
+    "uri" : "/ranks/of/OF9.svg"
   }
 }
