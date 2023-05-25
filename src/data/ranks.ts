@@ -13,7 +13,7 @@ export const RANKS = {
     "uri": "/ranks/or/OR2.5.svg"
   },
   "OR3": {
-    "name": "Kersantti",
+    "name": "Korpraali",
     "uri": "/ranks/or/OR3.svg"
   },
   "OR4": {

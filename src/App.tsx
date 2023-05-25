@@ -50,11 +50,11 @@ function App() {
     <button type="button" onClick={
       () => {
         setCardState(rollNewRank())
+        setWasCorrect("")
       }
     }>New rank</button>
   </form>
 
-  <p>I do not own any of these images.<br/>All images are indexed from a Wikipedia <a href="https://en.wikipedia.org/wiki/Finnish_military_ranks">article</a> on Finnish service ranks.</p>
     </>
   )
 }
