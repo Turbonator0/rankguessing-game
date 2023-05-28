@@ -1,7 +1,7 @@
 import './App.css'
 import { RankDisplay } from './RankDisplay'
 import { RandomInt } from './helper'
-import { RANKS, RANKS_OR_TYPE } from './data/ranks'
+import { RANKS, RANKS_TYPE } from './data/ranks'
 import { useState } from 'react'
 
 const allRanks =   // OFS = Officer student, OFD = senior officer student, 2.5 is for NCO students, there is also
@@ -12,7 +12,7 @@ function rollNewRank(){
   // I wrote this yesternight, and I have no fucking clue about what it does
   let index = RandomInt(allRanks.length)
   index = index === 0 ? 0 : index-1
-  return (RANKS as any)[allRanks[index]] as RANKS_OR_TYPE
+  return RANKS.get(allRanks[index]) as RANKS_TYPE
 }
 
 function App() {
